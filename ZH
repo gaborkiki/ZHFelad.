@@ -1,10 +1,23 @@
 public class ZHFelad {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-    }
+        }
     
     int i;
         for (i=0;i<10;i++){
             int a=i+2;
             System.out.println("A szamok: "+ a);
+            }
+            
+            
+BufferedReader be = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Kérek egy szöveget: ");
+            String sor = be.readLine();
+            System.out.println(sor);
+            System.out.println("Kérek egy számot: ");
+            sor = be.readLine();
+            int szam = Integer.parseInt(sor);
+            System.out.println("A szám négyzete: "+(szam*szam));
+            
+           
 }
